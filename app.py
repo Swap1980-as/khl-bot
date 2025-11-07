@@ -67,4 +67,4 @@ def send_test():
     return "✅ Тестовое письмо отправлено!" if result else "❌ Ошибка отправки"
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=10000)
